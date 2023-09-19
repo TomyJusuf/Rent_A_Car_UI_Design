@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F3F3E3]">
+    <div
+      class="relative w-[650px] flex justify-center items-center h-screen m-auto -z-20"
+    >
+      <!-- cube orange-light -->
+      <div
+        class="w-56 h-72 bg-orange-400 rounded-[35px] -z-10 absolute left-0 top-24"
+      ></div>
+      <!-- form section -->
+      <section
+        type="form"
+        class="container bg-white rounded-xl w-[500px] h-[630px] m-auto flex justify-center items-center text-[#243264] ml-14"
+      >
+        <div class="w-[400px] h-[570px] bg-white flex flex-wrap">
+          <!-- search for rent -->
+          <div class="text-start w-full mt-5">
+            <h1 class="text-[25px] font-serif">Search for a rent car</h1>
+          </div>
+          <!-- pick location -->
+          <div class="w-full">
+            <h3 class="text-[10px]">Pick up location</h3>
+            <input
+              type="text"
+              placeholder="City, airport, region, district..."
+              class="w-full border-[1px] border-[#8D99C0] placeholder:font-bold placeholder:text-[#243264] placeholder:pl-3 placeholder:py-2 h-10 my-2 placeholder:text-sm"
+            />
+            <div class="flex">
+              <input type="checkbox" name="" id="" class="" />
+              <label for="" class="font-bold text-[13px] ml-2"
+                >Deliver the car somowhere else</label
+              >
+            </div>
+          </div>
+          <!-- data of pickup -->
+          <div class="grid grid-cols-2 gap-x-2 grid-row-1 w-full h-36">
+            <!-- first column -->
+            <div class="grid grid-cols-2 grid-rows-2">
+              <div class="col-span-2">
+                <h3 class="text-[10px]">Data of pickup</h3>
+                <input
+                  type="month"
+                  id="start"
+                  name="trip-start"
+                  min="2023-12-15"
+                  value="2023-08"
+                  class="border text-center w-full py-2 border-[#243264]"
+                />
+              </div>
+              <input
+                type="hour"
+                id="start"
+                name="trip-start"
+                value="10"
+                min="10"
+                max=""
+                class="border col-span-1 text-center h-12 border-[#243264] border-r-0"
+              />
+              <input
+                type="minit"
+                id="start"
+                name="trip-start"
+                value="00"
+                min="10"
+                max=""
+                class="border col-span-1 text-center h-12 border-[#243264]"
+              />
+            </div>
+            <!-- second column -->
+            <div class="grid grid-cols-2 grid-rows-2">
+              <div class="col-span-2">
+                <h3 class="text-[10px]">Data of pickup</h3>
+                <input
+                  type="month"
+                  id="start"
+                  name="trip-start"
+                  min="2023-12-15"
+                  value="2023-08"
+                  class="border text-center w-full py-2 border-[#243264]"
+                />
+              </div>
+              <input
+                type="hour"
+                id="start"
+                name="trip-start"
+                value="10"
+                min="10"
+                max=""
+                class="border col-span-1 text-center h-12 border-[#243264] border-r-0"
+              />
+              <input
+                type="minit"
+                id="start"
+                name="trip-start"
+                value="00"
+                min="10"
+                max=""
+                class="border col-span-1 text-center h-12 border-[#243264]"
+              />
+            </div>
+          </div>
+          <!-- info -->
+          <div class="w-full flex items-center">
+            <input
+              type="checkbox"
+              name=""
+              id="drive-age"
+              class="mr-3"
+              value=""
+            />
+            <label for="drive-age">The driver's age between 30 and 65? </label>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+              />
+            </svg>
+          </div>
+          <!-- card fees -->
+          <div class="info-bar w-full">
+            <div class="">
+              <div class="">
+                <input type="checkbox" name="" id="" />
+                <label for="">No creadit card fees</label>
+              </div>
+              <div class="">
+                <input type="checkbox" name="" id="" />
+                <label for="">No change fees</label>
+              </div>
+              <div class="">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="price"
+                  class="form-checkbox"
+                />
+                <label for="price">Price match giarantee</label>
+              </div>
+            </div>
+          </div>
+          <!-- search box -->
+          <div class="w-full m-auto flex justify-center">
+            <button
+              class="w-full bg-[#FC6C4C] py-6 rounded-xl text-white text-lg"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+      <div
+        class="w-56 h-72 bg-[#FCA999] rounded-[35px] -z-10 absolute right-0 bottom-20"
+      ></div>
+    </div>
+  </body>
+</html>
